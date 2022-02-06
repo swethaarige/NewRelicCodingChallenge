@@ -13,7 +13,8 @@ Below are the key features and high level implementation strategy.
    Internally manages thread pool of MAX_CLIENTS
 
 
-##Instructions for successful Application Build
+## Instructions for successful Application Build
+
 1.Go the command prompt/Terminal where the project is saved in local.
 
 2.Set up the Java 8 path by running the below command
@@ -21,14 +22,14 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11)
 
 3../gradlew build-- Build is successful
 
-##Run
+## Run
 Go to IntelliJ and Run the Application 
 
 Optional arguments: -port PORT and -file LOG can be used, 
 
-##Test
+## Test
 Added some tests to test the Application and Client code.
 All the tests are running successfully
 
-##References
+## References
 http://www.baeldung.com/a-guide-to-java-sockets
