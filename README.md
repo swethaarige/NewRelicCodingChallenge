@@ -26,10 +26,19 @@ export JAVA_HOME=$(/usr/libexec/java_home -v11)
 ## Run
 Go to IntelliJ and Run the Application 
 
+After Running the application, we should be able to see the LOG file created as numbers.log file and see the entries loaded to LOG file as shown in the below screenprint
+
+![image](https://user-images.githubusercontent.com/92757034/152666844-228bdab9-70df-41fb-b2cc-ef5564a7e351.png)
+
+
 Optional arguments: -port PORT and -file LOG can be used, 
 
 ## Test
-Added some tests to test the Application and Client code.
+Added below tests to test the Application and Client code.
+1. testThroughput
+2. testInvalidInput
+3. testDuplicates
+4. testThroughput
 All the tests are running successfully
 
 ## References
