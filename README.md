@@ -13,7 +13,7 @@ Below are the key features and high level implementation strategy.
    Internally manages thread pool of MAX_CLIENTS
 
 
-## Instructions for successful Application Build
+## Instructions for building application successfully
 
 1.Go the command prompt/Terminal where the project is saved in local.
 
