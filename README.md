@@ -38,8 +38,10 @@ Added below tests to test the Application and Client code.
 1. testThroughput
 2. testInvalidInput
 3. testDuplicates
-4. testThroughput
-All the tests are running successfully
+4. givenClient2_whenServerResponds_thenCorrect
+
+
+All the above tests are running successfully.
 
 ## References
 http://www.baeldung.com/a-guide-to-java-sockets
