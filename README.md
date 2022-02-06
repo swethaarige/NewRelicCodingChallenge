@@ -7,7 +7,7 @@ Solution uses java.io.* java.net.* java.util.*.
 ## Key features
 Below are the key features and high level implementation strategy.
 
-1. Limit thread pool to number N : The Server is limited to a Fixed Thread pool, by using the Executors package.
+1. Limit thread pool to number 5 : The Server is limited to a Fixed Thread pool, by using the Executors package.
 2. The Server does not allow any more than 5 clients to connect at a time. 
 3. Read Input streams :The Server has a Client Handler class that handles and reads the input streams for each of the clients. 
 4. Blocking Queues if limit reaches N:BlockingQueues are used here to improve speed and to be thread safe. Executor Utility class which provides factory methods
