@@ -23,7 +23,7 @@ Below are the key features and high level implementation strategy.
 1.Go the command prompt/Terminal where the project is saved in local.
 
 2.Set up the Java 8 path by running the below command
-export JAVA_HOME=$(/usr/libexec/java_home -v11)
+export JAVA_HOME=$(/usr/libexec/java_home -v1.8)
 
 3../gradlew build-- Build is successful
 
